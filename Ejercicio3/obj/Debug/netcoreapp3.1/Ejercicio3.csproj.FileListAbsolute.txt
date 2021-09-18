@@ -1,0 +1,14 @@
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\bin\Debug\netcoreapp3.1\Ejercicio3.exe
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\bin\Debug\netcoreapp3.1\Ejercicio3.deps.json
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\bin\Debug\netcoreapp3.1\Ejercicio3.runtimeconfig.json
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\bin\Debug\netcoreapp3.1\Ejercicio3.runtimeconfig.dev.json
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\bin\Debug\netcoreapp3.1\Ejercicio3.dll
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\bin\Debug\netcoreapp3.1\Ejercicio3.pdb
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\obj\Debug\netcoreapp3.1\Ejercicio3.csproj.AssemblyReference.cache
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\obj\Debug\netcoreapp3.1\Ejercicio3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\obj\Debug\netcoreapp3.1\Ejercicio3.AssemblyInfoInputs.cache
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\obj\Debug\netcoreapp3.1\Ejercicio3.AssemblyInfo.cs
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\obj\Debug\netcoreapp3.1\Ejercicio3.csproj.CoreCompileInputs.cache
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\obj\Debug\netcoreapp3.1\Ejercicio3.dll
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\obj\Debug\netcoreapp3.1\Ejercicio3.pdb
+C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio3\obj\Debug\netcoreapp3.1\Ejercicio3.genruntimeconfig.cache
