@@ -36,6 +36,7 @@ namespace Ejercicio1
                 Console.WriteLine("El resto de los numeros ingresados es: " + (num1 % num2));
             }
 
+            Console.ReadKey();
         }
     }
 }

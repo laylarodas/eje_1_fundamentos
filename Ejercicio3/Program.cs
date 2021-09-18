@@ -66,6 +66,9 @@ namespace Ejercicio3
             Console.WriteLine("El promedio de kilos totales es: {0}",promedioKilos);
             Console.WriteLine("La bolsa mas liviana {0} y su sabor {1}. ", bolsaLivina,bolsaLivianaSabor);
             Console.WriteLine("La cantidad de bolsas de carnes es: {0} y su promedio de kilos es: {1}", cantBolsaCarne,promedioKilosCarne);
+
+
+            Console.ReadKey();
         }
     }
 }

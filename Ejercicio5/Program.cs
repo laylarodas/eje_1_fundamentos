@@ -128,6 +128,8 @@ namespace Ejercicio5
             Console.WriteLine("El promedio de notas de varones de edad es: {0}", promVarones);
             Console.WriteLine("El promedio de notas de otros de edad es: {0}", promOtros);
 
+            Console.ReadKey();
+
         }
 
         static float Promedio(int cantidad, float suma)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\w10\\Desktop\\BACKUP\\Desktop\\C#\\Examen\\Ejercicio1\\Ejercicio1.csproj": {}
+    "C:\\Users\\w10\\Desktop\\eje_1_fundamentos\\Ejercicio1\\Ejercicio1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\w10\\Desktop\\BACKUP\\Desktop\\C#\\Examen\\Ejercicio1\\Ejercicio1.csproj": {
+    "C:\\Users\\w10\\Desktop\\eje_1_fundamentos\\Ejercicio1\\Ejercicio1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\w10\\Desktop\\BACKUP\\Desktop\\C#\\Examen\\Ejercicio1\\Ejercicio1.csproj",
+        "projectUniqueName": "C:\\Users\\w10\\Desktop\\eje_1_fundamentos\\Ejercicio1\\Ejercicio1.csproj",
         "projectName": "Ejercicio1",
-        "projectPath": "C:\\Users\\w10\\Desktop\\BACKUP\\Desktop\\C#\\Examen\\Ejercicio1\\Ejercicio1.csproj",
+        "projectPath": "C:\\Users\\w10\\Desktop\\eje_1_fundamentos\\Ejercicio1\\Ejercicio1.csproj",
         "packagesPath": "C:\\Users\\w10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\w10\\Desktop\\BACKUP\\Desktop\\C#\\Examen\\Ejercicio1\\obj\\",
+        "outputPath": "C:\\Users\\w10\\Desktop\\eje_1_fundamentos\\Ejercicio1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\w10\\AppData\\Roaming\\NuGet\\NuGet.Config",
