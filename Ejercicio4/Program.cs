@@ -78,8 +78,8 @@ namespace Ejercicio4
             Console.WriteLine("Cantidad de vehiculos color rojo : {0}", cantRojos);
             Console.WriteLine("Cantidad de vehiculos color rojo con valor mayor a 5000: {0}", cantRojosPrecioMayor);
             Console.WriteLine("Cantidad de vehiculos con valor menor a 5000 es: {0}", cantPrecioMenor);
-            Console.WriteLine("El promedio de todos los vehiculos ingresados es: {0}",promedio);
-            Console.WriteLine("El vehiculo mas caro es de : {0} y su color es {1}",max,colorVehiculoCaro);
+            Console.WriteLine("El promedio del valor de todos los vehiculos ingresados es: {0}",promedio);
+            Console.WriteLine("El vehiculo mas caro es de: {0} y su color es {1}",max,colorVehiculoCaro);
 
             Console.ReadKey();
         }

@@ -32,7 +32,7 @@ namespace Ejercicio3
                     kilos = float.Parse(Console.ReadLine());
                     if (kilos < 0 || kilos > 500)
                     {
-                        Console.WriteLine("No valido!");
+                        Console.WriteLine("No valido! (entre 0 a 500)");
                     }
                 } while (kilos < 0 || kilos > 500);
 
@@ -42,7 +42,7 @@ namespace Ejercicio3
                     sabor = Console.ReadLine();
                     if (sabor != "carne" && sabor != "vegetales" && sabor != "pollo")
                     {
-                        Console.WriteLine("No valido!");
+                        Console.WriteLine("No valido! Opciones: carne-vegetales-pollo");
                     }
                 } while (sabor != "carne" && sabor != "vegetales" && sabor != "pollo");
 

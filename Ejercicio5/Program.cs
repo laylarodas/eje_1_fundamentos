@@ -51,7 +51,7 @@ namespace Ejercicio5
                     sexo = char.Parse(Console.ReadLine());
                     if (sexo != 'f' && sexo != 'm' && sexo != 'x')
                     {
-                        Console.WriteLine("No valido!");
+                        Console.WriteLine("No valido! Ingresar f para femenino, m para masculino y x para otro");
                     }
                 } while (sexo != 'f' && sexo != 'm' && sexo != 'x');
 
@@ -65,7 +65,7 @@ namespace Ejercicio5
                     }
                     if (nota < 0 || nota > 10)
                     {
-                        Console.WriteLine("No valido!");
+                        Console.WriteLine("No valido! Evaluar de 0 a 10");
                     }
                 } while (!notaValida || (nota < 0 || nota > 10));
 
@@ -122,8 +122,8 @@ namespace Ejercicio5
 
             Console.WriteLine("La cantidad de varones aprobados es: {0}", cantVaronesAprobados);
             Console.WriteLine("El promedio de notas de menores de edad es: {0}",promMenores);
-            Console.WriteLine("El promedio de notas de mayores de edad es: {0}", promMayores);
             Console.WriteLine("El promedio de notas de adolescentes de edad es: {0}", promAdolescentes);
+            Console.WriteLine("El promedio de notas de mayores de edad es: {0}", promMayores);
             Console.WriteLine("El promedio de notas de mujeres de edad es: {0}", promMujeres);
             Console.WriteLine("El promedio de notas de varones de edad es: {0}", promVarones);
             Console.WriteLine("El promedio de notas de otros de edad es: {0}", promOtros);

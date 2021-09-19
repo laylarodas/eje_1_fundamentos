@@ -14,7 +14,7 @@ namespace Ejercicio2
              *         Leliq)
              *      b. Si es América tiene un 15% de descuento y si además paga por débito se le agrega un 10% más de descuento
              *      c. Si es África u Oceanía tiene un 30% de descuento y si además paga por mercadoPago o efectivo se le agrega un 15% 
-             *         más de descuento
+             *         más de descuento.
                     d. Si es Europa tiene un 20% de descuento y si además paga por débito se le agrega un 15% , por mercadoPago un 10% y
                        cualquier otro medio 5% 
                     e. cualquier otro continente tiene un recargo del 20% 
@@ -37,7 +37,7 @@ namespace Ejercicio2
 
                 if (ValidarContinente(continente) == false)
                 {
-                    Console.WriteLine("Incorrecto");
+                    Console.WriteLine("No valido! Continentes: Europa-Asia-Oceania-Africa-America");
                 }
             } while (!(ValidarContinente(continente)));
 
@@ -63,7 +63,7 @@ namespace Ejercicio2
                 medioPago = Console.ReadLine().ToLower();
                 if (ValidarMedioPago(medioPago) == false)
                 {
-                    Console.WriteLine("Incorrecto");
+                    Console.WriteLine("No valido! Medios de pago: efectivo-debito-credito-mercado pago-cheque-leliq");
                 }
             } while (!(ValidarMedioPago(medioPago)));
 
@@ -75,11 +75,12 @@ namespace Ejercicio2
                     if (medioPago == "debito")
                     {
                         precioFinal = precioFinal - (precioFinal * 0.10);
-                        Console.WriteLine("El precio final es: {0}", precioFinal);
+                        Console.WriteLine("El precio final a {0} por {1} dias es: ${2}.\nTiene un descuento del 15% "
+                        + "y ademas por el medio de pago elegido se le agrega un 10% mas de descuento.", continente,cantDias,precioFinal);
                     }
                     else
                     {
-                        Console.WriteLine("El precio final es: {0}", precioFinal);
+                        Console.WriteLine("El precio final a {0} por {1} dias es: ${2}.\nTiene un descuento del 15% ",continente,cantDias,precioFinal);
                     }
                     break;
                 case "africa":
@@ -88,11 +89,12 @@ namespace Ejercicio2
                     if (medioPago == "mercado pago" || medioPago == "efectivo")
                     {
                         precioFinal = precioFinal - (precioFinal * 0.15);
-                        Console.WriteLine("El precio final es: {0}", precioFinal);
+                        Console.WriteLine("El precio final a {0} por {1} dias es: ${2}.\nTiene un descuento del 30% "
+                        + "y ademas por el medio de pago elegido se le agrega un 15% mas de descuento.", continente, cantDias, precioFinal);
                     }
                     else
                     {
-                        Console.WriteLine("El precio final es: {0}", precioFinal);
+                        Console.WriteLine("El precio final a {0} por {1} dias es: ${2}.\nTiene un descuento del 30% ", continente, cantDias, precioFinal);
                     }
 
                     break;
@@ -102,19 +104,22 @@ namespace Ejercicio2
                     {
                         case "debito":
                             precioFinal = precioFinal - (precioFinal * 0.15);
-                            Console.WriteLine("El precio final es: {0}", precioFinal);
+                            Console.WriteLine("El precio final a {0} por {1} dias es: ${2}.\nTiene un descuento del 20% "
+                        + "y ademas por el medio de pago elegido se le agrega un 15% mas de descuento.", continente, cantDias, precioFinal);
                             break;
                         case "mercado pago":
                             precioFinal = precioFinal - (precioFinal * 0.10);
-                            Console.WriteLine("El precio final es: {0}", precioFinal);
+                            Console.WriteLine("El precio final a {0} por {1} dias es: ${2}.\nTiene un descuento del 20% "
+                        + "y ademas por el medio de pago elegido se le agrega un 10% mas de descuento.", continente, cantDias, precioFinal);
                             break;
                         case "cheque":
                             precioFinal = ((cantDias * estadia) - (cantDias * estadia) * 0.05) * 1.15;
-                            Console.WriteLine("el precio final es {0} con recargo del 15% por el medio de pago elegido {1}", precioFinal, medioPago);
+                            Console.WriteLine("El precio final a {0} por {1} dias es ${2} con un descuento del 20%.\nTiene un recargo del 15% de impuesto al medio de pago elegido: {3}",continente,cantDias, precioFinal, medioPago);
                             break;
                         default:
                             precioFinal = precioFinal - (precioFinal * 0.05);
-                            Console.WriteLine("El precio final es: {0}", precioFinal);
+                            Console.WriteLine("El precio final a {0} por {1} dias es: ${2}.\nTiene un descuento del 20% "
+                        + "y ademas por el medio de pago elegido se le agrega un 5% mas de descuento.", continente, cantDias, precioFinal);
                             break;
                     }
                     break;
@@ -123,11 +128,11 @@ namespace Ejercicio2
                     if (medioPago == "cheque")
                     {
                         precioFinal = precioFinal * 1.15;
-                        Console.WriteLine("el precio final es {0} con recargo del 15% por el medio de pago elegido {1}", precioFinal,medioPago);
+                        Console.WriteLine("el precio final a {0}  por {1} dias es ${2} con un recargo de 20%.\nTiene un recargo del 15% de impuesto al medio de pago elegido {3}",continente,cantDias, precioFinal,medioPago);
                     }
                     else
                     {
-                        Console.WriteLine("El precio final es: {0}", precioFinal);
+                        Console.WriteLine("El precio final a {0} por {1} dias es: ${2}. Con un recargo de 20%.",continente,cantDias, precioFinal);
                     }
                     break;
             }
@@ -151,7 +156,7 @@ namespace Ejercicio2
         }
         static bool ValidarMedioPago(string medioPago)
         {
-            
+
             if (medioPago == "debito" || medioPago == "credito" || medioPago == "efectivo" || medioPago == "mercado pago" || medioPago == "cheque" || medioPago == "leliq")
             {
                 return true;

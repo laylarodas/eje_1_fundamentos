@@ -12,3 +12,17 @@ C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio1\bin\Debug\netcoreapp3.1
 C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.dll
 C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.pdb
 C:\Users\w10\Desktop\BACKUP\Desktop\C#\Examen\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.genruntimeconfig.cache
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.exe
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.deps.json
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.runtimeconfig.json
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.runtimeconfig.dev.json
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.dll
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.pdb
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.csproj.AssemblyReference.cache
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.AssemblyInfoInputs.cache
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.AssemblyInfo.cs
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.dll
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.pdb
+C:\Users\w10\Desktop\eje_1_fundamentos\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.genruntimeconfig.cache

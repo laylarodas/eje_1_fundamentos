@@ -17,23 +17,23 @@ namespace Ejercicio1
             float num1 = float.Parse(Console.ReadLine());
             Console.WriteLine("Numero 2:");
             float num2 = float.Parse(Console.ReadLine());
+            float resto = num1 % num2;
 
             if (num1 == num2)
             {
-                Console.WriteLine("El cuadrado del numero es: " + (Math.Pow(num1,2))); ;
+                Console.WriteLine("Los numeros ingresados son iguales. El cuadrado del numero es: " + (Math.Pow(num1,2))); ;
 
-            }
-            if (num1 % num2 == 0)
+            }else if (resto == 0)
             {
-                Console.WriteLine("La resta de los numeros ingresados es: " + (num1 - num2)); ;
+                Console.WriteLine("El numero {0} es divisible por {1}, el resto es {2}. La resta de los numeros ingresados es: {3} ",num1,num2,resto, (num1 - num2)); ;
             }
-            else if (num1 % num2 > 3)
+            else if (resto != 0 && resto < 3)
             {
-                Console.WriteLine("El resto es mayor a 3: " + (num1 % num2));
+                Console.WriteLine("El resto de los numeros ingresados es: " + resto);
             }
             else
             {
-                Console.WriteLine("El resto de los numeros ingresados es: " + (num1 % num2));
+                Console.WriteLine("El resto es mayor a 3: " + resto);
             }
 
             Console.ReadKey();
