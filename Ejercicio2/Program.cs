@@ -35,7 +35,7 @@ namespace Ejercicio2
                 Console.WriteLine("Ingrese continente: ");
                 continente = Console.ReadLine().ToLower();
 
-                if (ValidarContinente(continente) == false)
+                if (!ValidarContinente(continente))
                 {
                     Console.WriteLine("No valido! Continentes: Europa-Asia-Oceania-Africa-America");
                 }
@@ -61,7 +61,7 @@ namespace Ejercicio2
             {
                 Console.WriteLine("Ingrese medio de pago: ");
                 medioPago = Console.ReadLine().ToLower();
-                if (ValidarMedioPago(medioPago) == false)
+                if (!ValidarMedioPago(medioPago))
                 {
                     Console.WriteLine("No valido! Medios de pago: efectivo-debito-credito-mercado pago-cheque-leliq");
                 }

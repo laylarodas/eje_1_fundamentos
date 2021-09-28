@@ -17,7 +17,10 @@ namespace Ejercicio4
 
             string color;
             double valor;
-            int cantRojos = 0, cantRojosPrecioMayor = 0, cantPrecioMenor = 0, cantVehiculos = 0;
+            int cantRojos = 0;
+            int cantRojosPrecioMayor = 0;
+            int cantPrecioMenor = 0;
+            int cantVehiculos = 0;
             double promedio,sumatoria = 0;
             string colorVehiculoCaro = " ";
             double max = double.MinValue;

@@ -22,8 +22,19 @@ namespace Ejercicio5
             char sexo = ' ';
             float nota;
             char opcion;
-            int cantVaronesAprobados = 0, cantMenores = 0, cantAdolescentes = 0, cantMayores= 0, cantMujeres = 0, cantVarones = 0, cantOtros = 0;
-            float sumaMenores = 0, sumaAdolescentes = 0, sumaMayores = 0,sumaMujeres= 0, sumaVarones = 0, sumaOtros = 0;
+            int cantVaronesAprobados = 0;
+            int cantMenores = 0;
+            int cantAdolescentes = 0;
+            int cantMayores = 0;
+            int cantMujeres = 0;
+            int cantVarones = 0;
+            int cantOtros = 0;
+            float sumaMenores = 0;
+            float sumaAdolescentes = 0;
+            float sumaMayores = 0;
+            float sumaMujeres = 0;
+            float sumaVarones = 0;
+            float sumaOtros = 0;
 
             do
             {
